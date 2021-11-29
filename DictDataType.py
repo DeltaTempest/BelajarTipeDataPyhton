@@ -13,6 +13,7 @@ showHeader("Mengakses Dictionary")
 
 print("Rimuru: ",dict1["Rimuru"]) # mengakses value yang ada di dalam "rimuru"
 print(dict1.keys(), "\n") # menampilkan list keys yang ada di dictionary
+print(dict1.items(), "\n") # menampilkan list value dan key
 
 showHeader("Merubah value pada dictionary")
 print("Sebelum dirubah: ", dict1["Rimuru"])
