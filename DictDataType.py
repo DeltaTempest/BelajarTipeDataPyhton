@@ -3,6 +3,7 @@ from ListFungsi import *
 #Dictionary atai dict adalah data struktur yang memiliki key dan value
 #data pada dict tidak bisa dirubah rubah
 #cara penulisan
+#namaVariabel = {key : value}
 
 dict1 = {"Tempest" : "Suka makan apel",
          "Rimuru" : "Adalah slime"
