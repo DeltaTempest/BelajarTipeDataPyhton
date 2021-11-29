@@ -10,13 +10,15 @@ def showHeader(namaFunction):
 #nama variabel = [isi data]
 
 
-list1 = [1, 2, 3]
+list1 = [1, 2, 3,4,5,6,7,8,9]
 list2 = [1, 1.3 , "Raihan", True] #list bisa menyimpan berbagai macam tipe data
 
 #Untuk mengaksesnya bisa dengan cara berikut
 print(list1) #printnya secara langsung secara keseluruhan
 print(list1[0]) #print index nya secara spesifik
-print(list1[0:2]) #print dari index ke 0 sampai 2
+print(list1[0:3]) #print dari index ke 0 sampai n-1
+print(list1[0:6:2]) #print dri index ke 0 sampai index ke n - 1 dengan beda 2
+
 
 #Untuk menambahkan data ke list terdapat 3 method yaitu 
 #append, extend, insert
