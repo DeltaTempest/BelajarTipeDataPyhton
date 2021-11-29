@@ -67,6 +67,33 @@ listBuah = ['mangga', 'apel', 'pisang']
 listBuah.remove('mangga') # menghapus elemen pisang pada listBuah
 print("ListBuah: ", listBuah, "\n")
 
+showHeader("Sorting list")
+#mengubah data list menjadi data yang telah di sorting bisa dilakukan dengan function sort()
+listAngka = [1, 10, 3, 100, 43, 32, 76]
+listAngka.sort() #sorting list dengan urutan lebih kecil
+print("List angka: ",listAngka, "\n")
+listAngka.sort(reverse=True) #sorting list dari urutan lebih besar atau terbalik
+
+#Sementara sorted berfungsi untuk mengembalikan list baru yang telah di sorting, tetapi list yang aslinya masih tetap ada
+
+listAngka2 = [1, 4, 2, 5, 10, 7]
+a = sorted(listAngka2) # membuat list baru dengan nama a yang isinya listAngka2 yang telah di sort
+print(a)
+print(listAngka2, "\n")
+
+showHeader("Index dan Count Function")
+#Index function berfungsi menembukan elemen data ada di index mana
+listNamaDanAngka = [1, "Raihan", 1, "Awang"]
+print(listNamaDanAngka.index("Raihan")) #print elemen Raihan ada di index mana
+
+#Count berfungsi untuk menghitung jumlah elemen data yang sama di list
+print(listNamaDanAngka.count(1))
+
+
+
+
+
+
 
 
 
