@@ -1,0 +1,1 @@
+Repo ini adalah repo belajar saya tentang tipe data struktur pada pyhton
