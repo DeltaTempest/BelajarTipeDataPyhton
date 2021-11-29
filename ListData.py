@@ -1,8 +1,8 @@
 from typing import List
+from ListFungsi import *
 
 
-def showHeader(namaFunction):
-    print("======== ", namaFunction , " ========\n")
+
 
 #List adalah struktur data pada pyhton yang bisa menyimpan berbagai macam tipe data.
 #list juga dapat merubah tipe data pada data yang ada di struktur tersebut.
