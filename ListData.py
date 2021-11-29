@@ -45,6 +45,16 @@ print(listBaru , "\n")
 del listBaru[2:4] #menghapus elemen pada index ke n sampai ke n - 1
 print(listBaru, "\n")
 
+showHeader("Pop")
+#Pop function berfungsi untuk menghapus atau mengembalikan elemen data pada list secara spesifik
+
+listNama = ["Raihan", "Awang", "Budi"]
+print("Elemen yang dihilangkan:",listNama.pop(1), "\n") #dia akan mengembalikan elemen pada index pertama dan menghapusnya dari list 
+
+print("List nya sekarang",listNama, "\n")
+
+showHeader("Remove")
+
 
 
 
