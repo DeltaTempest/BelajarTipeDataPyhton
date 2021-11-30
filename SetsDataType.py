@@ -6,7 +6,7 @@ from ListFungsi import *
 #sets syntax
 #NamaVariabel = {masukan elemen}
 
-sets1 = {1, 2, 3, 4, "herwin"}
+sets1 = {1, 2, 3, 4}
 
 showHeader("Mengakses sets")
 #sets hanya bisa diakses secara keseluruhan tidak bisa satu persatu
@@ -25,6 +25,19 @@ print("set angka sebelumnya(list): ", listAngka)
 setAngka = set(listAngka) # menjadi teratur dan tidak berduplikat
 print("Set angka baru(sets): ", setAngka)
 
+#union() function
+#syntax
+#setsBaru = sets1.union(masukan sets lain)
+setAngka.clear() #menghapus semua data pada sets
+setAngka = {4, 5, 6, 7}
+sets2 = sets1.union(setAngka) # menggabungkan 2 set ke dalam sets2
+print(sets2)
+
+#intersection berfungsi untuk menampilkan data potongan atau data yang sama diantara kedua sets, setelah 2 sets di union
+setsAngka1 = {1, 2, 3, 4}
+setsAngka2 = {3, 4, 5, 6, 7, 8}
+setsAngka1.union(setsAngka2) # menyatukan 2 sets
+print(setsAngka1.intersection(setsAngka2)) # menjalankan intersection function
 
 
 
