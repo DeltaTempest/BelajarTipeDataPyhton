@@ -25,6 +25,8 @@ print("set angka sebelumnya(list): ", listAngka)
 setAngka = set(listAngka) # menjadi teratur dan tidak berduplikat
 print("Set angka baru(sets): ", setAngka)
 
+
+showHeader("Union Function")
 #union() function
 #syntax
 #setsBaru = sets1.union(masukan sets lain)
@@ -33,11 +35,28 @@ setAngka = {4, 5, 6, 7}
 sets2 = sets1.union(setAngka) # menggabungkan 2 set ke dalam sets2
 print(sets2)
 
+
+showHeader("Intersection function")
 #intersection berfungsi untuk menampilkan data potongan atau data yang sama diantara kedua sets, setelah 2 sets di union
-setsAngka1 = {1, 2, 3, 4}
+setsAngka1 = {1, 2, 3, 4, 5, 6}
 setsAngka2 = {3, 4, 5, 6, 7, 8}
 setsAngka1.union(setsAngka2) # menyatukan 2 sets
-print(setsAngka1.intersection(setsAngka2)) # menjalankan intersection function
+print("Intersection: ",setsAngka1.intersection(setsAngka2)) # menjalankan intersection function
+
+
+showHeader("Diffrence function")
+#diffrence fungtion
+#berfungsi untuk mengeluarkan elemen data yang sama pada dua sets yang telah di satukan
+#lalu mengeluarkan elemen data sisanya hanya pada sets pertama
+
+print("Diffrence: ",setsAngka1.difference(setsAngka2)) # dia akan me return 1, 2 karena hanya itu yang berbeda dan berada di sets 1
+
+#symetric diffrence function 
+#fungsinya sama seperti diffrence tetapi bedanya dia akan meng output kedua sets
+
+print("Symetric diffrence", setsAngka1.symmetric_difference(setsAngka2)) # return 1 , 2, 7, 8
+
+
 
 
 
