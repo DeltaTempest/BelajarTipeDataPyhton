@@ -86,14 +86,3 @@ try:
     printArray(a)
 except:
     print("Array tersebut tidak ada")
-
-
-    
-    
-    
-
-
-
-
-
-
